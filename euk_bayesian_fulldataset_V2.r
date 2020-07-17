@@ -72,12 +72,29 @@ frequencies = list()
 
 for (j in 1:nloci) {
 	locicolumns = grepl(paste(locinames[j],"",sep=""),colnames(data))
+	print(locinames[j])
+	print(colnames(data))
+	print(locicolumns)
 	raw_alleles = c(as.matrix(data[,locicolumns]))
+	write.csv(data,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/data1.csv", row.names = FALSE )
+	print(raw_alleles)
+	print(data)
+	nrow(data)
+	ncol(data)
+	print(data[,locicolumns])
+	print(raw_alleles)
+	write.csv(raw_alleles,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/raw_allelesn1.csv", row.names = FALSE )
 	raw_alleles[raw_alleles == "NA"] = NA
 	raw_alleles[raw_alleles == 0] = NA
+	print(raw_alleles[raw_alleles == "NA"])
+	print(raw_alleles)
+	write.csv(raw_alleles,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/raw_alleles2.csv", row.names = FALSE )
 	alleles[[j]] = unique(raw_alleles[!is.na(raw_alleles)])
+	print(alleles)
+	#write.csv(alleles,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/alleles.csv", row.names = FALSE )
 	frequencies[[j]] = sapply(alleles[[j]], function(x) sum(raw_alleles == x,na.rm=TRUE))
 	frequencies[[j]] = frequencies[[j]] / sum(frequencies[[j]])
+	print(frequencies[[j]])
 
 }
 
@@ -100,8 +117,10 @@ pairwisedistance = function(isolate1,isolate2){
 	print(isolate1)
 	print(isolate2)
 	loglik = matrix(NA,nloci,3)
+	print(loglik)
 	for (j in 1:nloci) {
 		v1 = observeddatamatrix[[j]][isolate1,]
+		print(v1)
 		v1 = v1[!is.na(v1)]
 		p1 = frequencies[[j]][match(v1,alleles[[j]])]
 		v2 = observeddatamatrix[[j]][isolate2,]
@@ -117,17 +136,23 @@ pairwisedistance = function(isolate1,isolate2){
 }
 
 
-allpossiblepairs = expand.grid(1:nids,1:nids)
-print(nids)
-#expand the grid from imported data
-print(allpossiblepairs)
-allpossiblepairs = unique(allpossiblepairs[allpossiblepairs[,1] <= allpossiblepairs[,2],])
 
+allpossiblepairs = expand.grid(1:nids,1:nids)
+#print(nids)
+#expand the grid from imported data
+#print(allpossiblepairs)
+#write.csv(allpossiblepairs,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/allpossiblepairs.csv", row.names = FALSE )
+allpossiblepairs = unique(allpossiblepairs[allpossiblepairs[,1] <= allpossiblepairs[,2],])
+#print(allpossiblepairs)
+#write.csv(allpossiblepairs,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/allpossiblepairs2.csv", row.names = FALSE )
 # pairwisedistancevector = unlist(lapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistance(allpossiblepairs[x,1],allpossiblepairs[x,2]))) # not parallel
 
 				  
 				  ###### MODIFY NUMBER OF CORES BELOW - mc.cores=###
-				  
+
+print(allpossiblepairs[11,1])
+print(allpossiblepairs[11,2])
+
 pairwisedistancevector = unlist(mclapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistance(allpossiblepairs[x,1],allpossiblepairs[x,2]),mc.cores=12)) # parallel
 
 pairwisedistancematrix = matrix(NA,nids,nids)

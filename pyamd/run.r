@@ -1,15 +1,20 @@
+setwd("/Users/adminuser/Desktop/CDC/Bayesian/pyamd")
+
 require(stringr)
 require(parallel)
 
+library(stringr)
+library(parallel)
 source("import_data_V2.r")
 
 ids = data$ids
 nids = length(ids)
 
+print(data)
 source("euk_bayesian_fulldataset_V2.r")
-
+print(data)
 source("euk_heuristic_fulldataset.r")
-
+print(data)
 ## average both methods
 
 Bayesian_pairwisedistancematrix_norm_temp = (2-Bayesian_pairwisedistancematrix)

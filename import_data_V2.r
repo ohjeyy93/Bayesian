@@ -26,6 +26,8 @@ datacompleteness = c()
 # MaxMOI for each locus 
 for (j in 1:nloci) {
 	locicolumns = grepl(paste(locinames[j],"",sep=""),colnames(data))
+	print(colnames(data))
+	print(locicolumns)
 	raw_alleles = data[,locicolumns]
 	maxMOI = max(c(2,rowSums(raw_alleles == "X",na.rm=TRUE)))
 	MOI = rowSums(raw_alleles == "X",na.rm=TRUE)
@@ -35,11 +37,12 @@ for (j in 1:nloci) {
 	if (ploidy[j] > 1) {
 		sapply(1:nids,function (x) if (MOI[x] == 1) { newdatatemp[x,1:2] <<- paste("Hap_",which(raw_alleles[x,] == "X"),sep="")})
 	}
-	colnames(newdatatemp ) = paste(1:maxMOI,"_Hap_",locinames[j],sep="")
+	colnames(newdatatemp) = paste(1:maxMOI,"_Hap_",locinames[j],sep="")
 	newdata = cbind(newdata,newdatatemp )
 	datacompleteness  = cbind(datacompleteness,MOI)
 }
 
+print(ncol(newdata))
 data = cbind(ids,newdata)
 data = data.frame(data)
 
@@ -67,9 +70,10 @@ cleandata = data[(rowSums(datacompleteness_bylocus[,c(5,7,8)]) == 3 & rowSums(da
 #print(cleandata)
 print((rowSums(datacompleteness_bylocus[,c(5,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | rowSums(datacompleteness_bylocus) >= 5 | (rowSums(datacompleteness_bylocus[,c(6,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,7)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4))
 
-#write.csv(cleandata,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/cleandata.csv", row.names = FALSE )
+write.csv(cleandata,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/cleandata.csv", row.names = FALSE )
 nrow(cleandata)
 nrow(data)
+ncol(cleandata)
 
 data = cleandata
 ids = data$ids

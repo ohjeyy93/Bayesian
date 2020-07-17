@@ -1,7 +1,7 @@
 #### provide genotype datasheet
 #data = read.csv("Example_haplotype_data_sheet.txt",sep = "\t")
 #print(data[4])
-setwd('/home/momo/Desktop/CDC/Bayesian2/pyamd')
+setwd("/Users/adminuser/Desktop/CDC/Bayesian/pyamd")
 data = read.csv("Example_haplotype_data_sheet.txt",skip=0,stringsAsFactors = FALSE, sep = "\t")
 #print(data)
 #print(data[4])
