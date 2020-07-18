@@ -37,6 +37,7 @@ for (j in 1:nloci) {
 	nalleles = sum(locicolumns,na.rm=TRUE)
 	#print(nalleles)
 	newdatatemp = rbind(matrix(NA,nids,maxMOI))
+	print(newdatatemp)
 	sapply(1:nids,function (x) if (MOI[x] > 0) { newdatatemp[x,1:MOI[x]] <<- paste("Hap_",which(raw_alleles[x,] == "X"),sep="")})
 	if (ploidy[j] > 1) {
 		sapply(1:nids,function (x) if (MOI[x] == 1) { newdatatemp[x,1:2] <<- paste("Hap_",which(raw_alleles[x,] == "X"),sep="")})
