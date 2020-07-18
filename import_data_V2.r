@@ -29,7 +29,7 @@ for (j in 1:nloci) {
 	#print(colnames(data))
 	#print(locicolumns)
 	raw_alleles = data[,locicolumns]
-	print(raw_alleles)
+	#print(raw_alleles)
 	#print(rowSums(raw_alleles == "X",na.rm=TRUE))
 	maxMOI = max(c(2,rowSums(raw_alleles == "X",na.rm=TRUE)))
 	#print(maxMOI)
@@ -37,13 +37,15 @@ for (j in 1:nloci) {
 	nalleles = sum(locicolumns,na.rm=TRUE)
 	#print(nalleles)
 	newdatatemp = rbind(matrix(NA,nids,maxMOI))
-	print(newdatatemp)
+	#print(newdatatemp)
+	#print(MOI)
 	sapply(1:nids,function (x) if (MOI[x] > 0) { newdatatemp[x,1:MOI[x]] <<- paste("Hap_",which(raw_alleles[x,] == "X"),sep="")})
 	if (ploidy[j] > 1) {
 		sapply(1:nids,function (x) if (MOI[x] == 1) { newdatatemp[x,1:2] <<- paste("Hap_",which(raw_alleles[x,] == "X"),sep="")})
 	}
 	colnames(newdatatemp) = paste(1:maxMOI,"_Hap_",locinames[j],sep="")
-	#print(newdatatemp)
+	#print(colnames(newdatatemp))
+	print(newdatatemp)
 	newdata = cbind(newdata,newdatatemp )
 	datacompleteness  = cbind(datacompleteness,MOI)
 }
