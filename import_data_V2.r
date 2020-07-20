@@ -45,8 +45,9 @@ for (j in 1:nloci) {
 	}
 	colnames(newdatatemp) = paste(1:maxMOI,"_Hap_",locinames[j],sep="")
 	#print(colnames(newdatatemp))
-	print(newdatatemp)
+	#print(newdatatemp)
 	newdata = cbind(newdata,newdatatemp )
+	print(newdata)
 	datacompleteness  = cbind(datacompleteness,MOI)
 }
 
