@@ -47,8 +47,9 @@ for (j in 1:nloci) {
 	#print(colnames(newdatatemp))
 	#print(newdatatemp)
 	newdata = cbind(newdata,newdatatemp )
-	print(newdata)
+	#print(newdata)
 	datacompleteness  = cbind(datacompleteness,MOI)
+	#print(datacompleteness)
 }
 
 #print(ncol(newdata))
@@ -58,7 +59,7 @@ data = data.frame(data)
 # calculate locus-specific amplification success
 		       
 datacompleteness_bylocus = sapply(locinames_base,function (x) rowSums(cbind(datacompleteness[,grepl(x,locinames)]))>0)
-
+print(datacompleteness_bylocus)
 print("Number of loci sequenced")
 table(rowSums(datacompleteness_bylocus))
 
