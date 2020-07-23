@@ -33,7 +33,9 @@ for (j in 1:nloci) {
 	#print(rowSums(raw_alleles == "X",na.rm=TRUE))
 	maxMOI = max(c(2,rowSums(raw_alleles == "X",na.rm=TRUE)))
 	#print(maxMOI)
+	#print(maxMOI)
 	MOI = rowSums(raw_alleles == "X",na.rm=TRUE)
+	print(MOI)
 	nalleles = sum(locicolumns,na.rm=TRUE)
 	#print(nalleles)
 	newdatatemp = rbind(matrix(NA,nids,maxMOI))
@@ -49,7 +51,7 @@ for (j in 1:nloci) {
 	newdata = cbind(newdata,newdatatemp )
 	#print(newdata)
 	datacompleteness  = cbind(datacompleteness,MOI)
-	#print(datacompleteness)
+	print(datacompleteness)
 }
 
 #print(ncol(newdata))
@@ -59,6 +61,7 @@ data = data.frame(data)
 # calculate locus-specific amplification success
 		       
 datacompleteness_bylocus = sapply(locinames_base,function (x) rowSums(cbind(datacompleteness[,grepl(x,locinames)]))>0)
+write.csv(datacompleteness_bylocus,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/datacompleteness_bylocus.csv", row.names = FALSE )
 print(datacompleteness_bylocus)
 print("Number of loci sequenced")
 table(rowSums(datacompleteness_bylocus))
@@ -78,7 +81,7 @@ table(rowSums(datacompleteness_bylocus))
 #print(rowSums(datacompleteness_bylocus[,c(5,7,8)]) == 3 &rowSums(datacompleteness_bylocus) >= 4)
 cleandata = data[(rowSums(datacompleteness_bylocus[,c(5,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | rowSums(datacompleteness_bylocus) >= 5 | (rowSums(datacompleteness_bylocus[,c(6,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,7)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4),] 
 #print(cleandata)
-print((rowSums(datacompleteness_bylocus[,c(5,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | rowSums(datacompleteness_bylocus) >= 5 | (rowSums(datacompleteness_bylocus[,c(6,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,7)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4))
+#print((rowSums(datacompleteness_bylocus[,c(5,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | rowSums(datacompleteness_bylocus) >= 5 | (rowSums(datacompleteness_bylocus[,c(6,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,7)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4))
 
 #write.csv(cleandata,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/cleandata.csv", row.names = FALSE )
 nrow(cleandata)
