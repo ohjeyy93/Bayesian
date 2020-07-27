@@ -40,6 +40,7 @@ for (j in 1:nloci) {
 	#print(nalleles)
 	newdatatemp = rbind(matrix(NA,nids,maxMOI))
 	#print(newdatatemp)
+	#print(newdatatemp)
 	#print(MOI)
 	sapply(1:nids,function (x) if (MOI[x] > 0) { newdatatemp[x,1:MOI[x]] <<- paste("Hap_",which(raw_alleles[x,] == "X"),sep="")})
 	if (ploidy[j] > 1) {
@@ -49,10 +50,12 @@ for (j in 1:nloci) {
 	#print(colnames(newdatatemp))
 	#print(newdatatemp)
 	newdata = cbind(newdata,newdatatemp )
-	#print(newdata)
+	print(newdata)
 	datacompleteness  = cbind(datacompleteness,MOI)
-	print(datacompleteness)
+	#print(datacompleteness)
 }
+
+#write.csv(newdata,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/newdata1.csv", row.names = FALSE )
 
 #print(ncol(newdata))
 data = cbind(ids,newdata)
@@ -83,7 +86,7 @@ cleandata = data[(rowSums(datacompleteness_bylocus[,c(5,7,8)]) == 3 & rowSums(da
 #print(cleandata)
 #print((rowSums(datacompleteness_bylocus[,c(5,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | rowSums(datacompleteness_bylocus) >= 5 | (rowSums(datacompleteness_bylocus[,c(6,7,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,7)]) == 3 & rowSums(datacompleteness_bylocus) >= 4) | (rowSums(datacompleteness_bylocus[,c(5,6,8)]) == 3 & rowSums(datacompleteness_bylocus) >= 4))
 
-#write.csv(cleandata,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/cleandata.csv", row.names = FALSE )
+write.csv(cleandata,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/cleandataR.csv", row.names = FALSE )
 nrow(cleandata)
 nrow(data)
 ncol(cleandata)
