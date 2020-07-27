@@ -5,65 +5,65 @@
 3			Hap_1	Hap_1	Hap_2	Hap_2	Hap_2	Hap_2									Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_3	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
 4			Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
 5			Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-7			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-8	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2			Hap_1		Hap_2	
-9			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_1	Hap_2
-10			Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-13	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-14	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-15	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_3		Hap_2	Hap_2	Hap_2	Hap_4		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4	Hap_5	Hap_3	Hap_4	Hap_2	Hap_2	Hap_9		Hap_3		Hap_2	
-16			Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_3		Hap_1	Hap_1	Hap_3	Hap_3												Hap_3		Hap_1		Hap_2	
-17			Hap_1	Hap_1					Hap_3	Hap_3		Hap_1	Hap_1	Hap_3	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-20	Hap_2	Hap_2										Hap_1	Hap_1														Hap_3		Hap_1		Hap_2	
-21			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_2		Hap_1	
-22					Hap_2	Hap_2											Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-23			Hap_1	Hap_1													Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-27					Hap_1	Hap_1			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_4		Hap_3		Hap_2	
-28					Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1												Hap_8		Hap_1		Hap_1	
-29	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-30	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1									Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-31	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-32	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8	Hap_17	Hap_1		Hap_1	
-33	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-35	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_6	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_1	Hap_3	Hap_1		Hap_2	
-36	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-38	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3			Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-39			Hap_1	Hap_1	Hap_1	Hap_1			Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2												Hap_8		Hap_1		Hap_1	
-40	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-41	Hap_2	Hap_2			Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-42			Hap_1	Hap_1					Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-44	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-45	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-46	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-48	Hap_2	Hap_2			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_4	Hap_7	Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-49			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-50					Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-51	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_6	Hap_6		Hap_2	Hap_2				Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_1	Hap_3	Hap_1		Hap_2	
-52	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_2		Hap_1	
-53			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-54	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-55	Hap_2	Hap_2			Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1												Hap_17		Hap_1	Hap_2	Hap_1	
-58	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+6			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+7	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2			Hap_1		Hap_2	
+8			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_1	Hap_2
+9			Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+10	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+11	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+12	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_3		Hap_2	Hap_2	Hap_2	Hap_4		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4	Hap_5	Hap_3	Hap_4	Hap_2	Hap_2	Hap_9		Hap_3		Hap_2	
+13			Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_3		Hap_1	Hap_1	Hap_3	Hap_3												Hap_3		Hap_1		Hap_2	
+14			Hap_1	Hap_1					Hap_3	Hap_3		Hap_1	Hap_1	Hap_3	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+15	Hap_2	Hap_2										Hap_1	Hap_1														Hap_3		Hap_1		Hap_2	
+16			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_2		Hap_1	
+17					Hap_2	Hap_2											Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+18			Hap_1	Hap_1													Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+19					Hap_1	Hap_1			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_4		Hap_3		Hap_2	
+20					Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1												Hap_8		Hap_1		Hap_1	
+21	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+22	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1									Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+23	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+24	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8	Hap_17	Hap_1		Hap_1	
+25	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+26	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_6	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_1	Hap_3	Hap_1		Hap_2	
+27	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+28	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3			Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+29			Hap_1	Hap_1	Hap_1	Hap_1			Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2												Hap_8		Hap_1		Hap_1	
+30	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+31	Hap_2	Hap_2			Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+32			Hap_1	Hap_1					Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+33	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+34	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+35	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+36	Hap_2	Hap_2			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_4	Hap_7	Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+37			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+38					Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+39	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_6	Hap_6		Hap_2	Hap_2				Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_1	Hap_3	Hap_1		Hap_2	
+40	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_2		Hap_1	
+41			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+42	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+43	Hap_2	Hap_2			Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1												Hap_17		Hap_1	Hap_2	Hap_1	
+44	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+45	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+46	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+47			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+48	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_12		Hap_1		Hap_1	
+49	Hap_2	Hap_2	Hap_2	Hap_2			Hap_2	Hap_2	Hap_5	Hap_5		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
+50			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+51	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+52	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+53	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+54	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+55	Hap_2	Hap_2					Hap_2	Hap_2	Hap_5	Hap_5		Hap_2	Hap_2				Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
+56	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+57									Hap_2	Hap_2		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_13		Hap_1		Hap_2	
+58			Hap_1	Hap_1					Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
 59	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-60	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-61			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-62	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_12		Hap_1		Hap_1	
-63	Hap_2	Hap_2	Hap_2	Hap_2			Hap_2	Hap_2	Hap_5	Hap_5		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
-64			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-65	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-66	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-67	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-69	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-70	Hap_2	Hap_2					Hap_2	Hap_2	Hap_5	Hap_5		Hap_2	Hap_2				Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
-71	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-76									Hap_2	Hap_2		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_13		Hap_1		Hap_2	
-77			Hap_1	Hap_1					Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-78	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-80			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-81	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-82	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-83	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-85	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
-86			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2									Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-90	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-97	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+60			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+61	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+62	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+63	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+64	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
+65			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2									Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+66	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+67	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	

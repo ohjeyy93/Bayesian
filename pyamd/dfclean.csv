@@ -1,83 +1,69 @@
-	ids	CDC1_Hap_1	CDC1_Hap_2	CDC2_Hap_1	CDC2_Hap_2	CDC3_Hap_1	CDC3_Hap_2	CDC4_Hap_1	CDC4_Hap_2	X378_PART_A_Hap_1	X378_PART_A_Hap_2	X378_PART_A_Hap_3	X378_PART_B_Hap_1	X378_PART_B_Hap_2	X378_PART_C_Hap_1	X378_PART_C_Hap_2	X378_PART_C_Hap_3	X360i2_PART_A_Hap_1	X360i2_PART_A_Hap_2	X360i2_PART_B_Hap_1	X360i2_PART_B_Hap_2	X360i2_PART_B_Hap_3	X360i2_PART_B_Hap_4	X360i2_PART_C_Hap_1	X360i2_PART_C_Hap_2	X360i2_PART_D_Hap_1	X360i2_PART_D_Hap_2	Junction_Hap_1	Junction_Hap_2	MSR_Left_Hap_1	MSR_Left_Hap_2	MSR_Right_Hap_1	MSR_Right_Hap_2
-0	C_CA003_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_12		Hap_2		Hap_1	
-1	C_IA004_18			Hap_2	Hap_2	Hap_1	Hap_1			Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
-2	C_IA005_18			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-3	C_IA006_18			Hap_1	Hap_1	Hap_2	Hap_2	Hap_2	Hap_2									Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_3	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-4	C_IA007_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-5	C_IA008_18			Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-6	C_IA011_18																																
-7	C_IA009_18			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-8	C_IA014_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2			Hap_1		Hap_2	
-9	C_IA013_18			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_1	Hap_2
-10	C_IA016_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-11	C_IA018_18																																
-12	C_IA017_18																																
-13	C_IA019_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-14	C_IA020_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-15	C_IA023_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_3		Hap_2	Hap_2	Hap_2	Hap_4		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4	Hap_5	Hap_3	Hap_4	Hap_2	Hap_2	Hap_9		Hap_3		Hap_2	
-16	C_IA055_18			Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_3		Hap_1	Hap_1	Hap_3	Hap_3												Hap_3		Hap_1		Hap_2	
-17	C_IA027_18			Hap_1	Hap_1					Hap_3	Hap_3		Hap_1	Hap_1	Hap_3	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-18	C_IA025_18																																
-19	C_IA024_18																																
-20	C_IA029_18	Hap_2	Hap_2										Hap_1	Hap_1														Hap_3		Hap_1		Hap_2	
-21	C_IA058_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_2		Hap_1	
-22	C_IA059_18					Hap_2	Hap_2											Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
-23	C_IA050_18			Hap_1	Hap_1													Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-24	C_IA051_18																																
-25	C_IA052_18																																
-26	C_IA054_18																																
-27	C_IA040_18					Hap_1	Hap_1			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_4		Hap_3		Hap_2	
-28	C_IA042_18					Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1												Hap_8		Hap_1		Hap_1	
-29	C_IA043_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-30	C_IA044_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1									Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-31	C_IA030_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-32	C_IA031_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8	Hap_17	Hap_1		Hap_1	
-33	C_IA034_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-34	C_IA035_18																																
-35	C_IA036_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_6	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_1	Hap_3	Hap_1		Hap_2	
-36	C_IA038_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-37	C_IA039_18																																
-38	C_IA045_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3			Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-39	C_IA046_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2												Hap_8		Hap_1		Hap_1	
-40	C_IA047_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-41	C_IA048_18	Hap_2	Hap_2			Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-42	C_IA063_18			Hap_1	Hap_1					Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-43	C_IA049_18																																
-44	C_IA068_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-45	C_IA069_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-46	C_IA070_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-47	C_IA078_18																																
-48	C_IA065_18	Hap_2	Hap_2			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_4	Hap_7	Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
-49	C_IA066_18			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-50	C_IA076_18					Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-51	C_IA077_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_6	Hap_6		Hap_2	Hap_2				Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_1	Hap_3	Hap_1		Hap_2	
-52	C_IA075_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_2		Hap_1	
-53	C_IA062_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-54	C_IA082_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-55	C_IA084_18	Hap_2	Hap_2			Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1												Hap_17		Hap_1	Hap_2	Hap_1	
-56	C_IA083_18																																
-57	C_IA080_18																																
-58	C_IA086_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-59	C_IA064_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-60	C_IA085_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-61	C_IA087_18			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-62	C_IA092_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_12		Hap_1		Hap_1	
-63	C_IA091_18	Hap_2	Hap_2	Hap_2	Hap_2			Hap_2	Hap_2	Hap_5	Hap_5		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
-64	C_IA090_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-65	C_IA060_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-66	C_IA099_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-67	C_IA104_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-69		Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-70		Hap_2	Hap_2					Hap_2	Hap_2	Hap_5	Hap_5		Hap_2	Hap_2				Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
-71		Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-76										Hap_2	Hap_2		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_13		Hap_1		Hap_2	
-77				Hap_1	Hap_1					Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-78		Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-80				Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-81		Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-82		Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-83		Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-85		Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
-86				Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2									Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
-90		Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
-97		Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+ids	CDC1_Hap_1	CDC1_Hap_2	CDC2_Hap_1	CDC2_Hap_2	CDC3_Hap_1	CDC3_Hap_2	CDC4_Hap_1	CDC4_Hap_2	X378_PART_A_Hap_1	X378_PART_A_Hap_2	X378_PART_A_Hap_3	X378_PART_B_Hap_1	X378_PART_B_Hap_2	X378_PART_C_Hap_1	X378_PART_C_Hap_2	X378_PART_C_Hap_3	X360i2_PART_A_Hap_1	X360i2_PART_A_Hap_2	X360i2_PART_B_Hap_1	X360i2_PART_B_Hap_2	X360i2_PART_B_Hap_3	X360i2_PART_B_Hap_4	X360i2_PART_C_Hap_1	X360i2_PART_C_Hap_2	X360i2_PART_D_Hap_1	X360i2_PART_D_Hap_2	Junction_Hap_1	Junction_Hap_2	MSR_Left_Hap_1	MSR_Left_Hap_2	MSR_Right_Hap_1	MSR_Right_Hap_2
+C_CA003_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_12		Hap_2		Hap_1	
+C_IA004_18			Hap_2	Hap_2	Hap_1	Hap_1			Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
+C_IA005_18			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+C_IA006_18			Hap_1	Hap_1	Hap_2	Hap_2	Hap_2	Hap_2									Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_3	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+C_IA007_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+C_IA008_18			Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+C_IA011_18			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+C_IA009_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2			Hap_1		Hap_2	
+C_IA014_18			Hap_1	Hap_1	Hap_2	Hap_2			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_1	Hap_2
+C_IA013_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+C_IA016_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4		Hap_3	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+C_IA018_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+C_IA017_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_2	Hap_2	Hap_3	Hap_3		Hap_2	Hap_2	Hap_2	Hap_4		Hap_2	Hap_2	Hap_2	Hap_3	Hap_4	Hap_5	Hap_3	Hap_4	Hap_2	Hap_2	Hap_9		Hap_3		Hap_2	
+C_IA019_18			Hap_2	Hap_2	Hap_2	Hap_2			Hap_3	Hap_3		Hap_1	Hap_1	Hap_3	Hap_3												Hap_3		Hap_1		Hap_2	
+C_IA020_18			Hap_1	Hap_1					Hap_3	Hap_3		Hap_1	Hap_1	Hap_3	Hap_3		Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+C_IA023_18	Hap_2	Hap_2										Hap_1	Hap_1														Hap_3		Hap_1		Hap_2	
+C_IA055_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_2		Hap_1	
+C_IA027_18					Hap_2	Hap_2											Hap_2	Hap_2	Hap_3	Hap_3			Hap_4	Hap_4	Hap_2	Hap_2	Hap_3		Hap_1		Hap_2	
+C_IA025_18			Hap_1	Hap_1													Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA024_18					Hap_1	Hap_1			Hap_3	Hap_4		Hap_1	Hap_2	Hap_1	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_4		Hap_3		Hap_2	
+C_IA029_18					Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1												Hap_8		Hap_1		Hap_1	
+C_IA058_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA059_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1									Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+C_IA050_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA051_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8	Hap_17	Hap_1		Hap_1	
+C_IA052_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA054_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_6	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_1	Hap_3	Hap_1		Hap_2	
+C_IA040_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA042_18	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3			Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+C_IA043_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2												Hap_8		Hap_1		Hap_1	
+C_IA044_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA030_18	Hap_2	Hap_2			Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA031_18			Hap_1	Hap_1					Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_1	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA034_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA035_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA036_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA038_18	Hap_2	Hap_2			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_4	Hap_7	Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_1		Hap_1	
+C_IA039_18			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA045_18					Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA046_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_6	Hap_6		Hap_2	Hap_2				Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_1	Hap_3	Hap_1		Hap_2	
+C_IA047_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_8		Hap_2		Hap_1	
+C_IA048_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA063_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA049_18	Hap_2	Hap_2			Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1												Hap_17		Hap_1	Hap_2	Hap_1	
+C_IA068_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA069_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA070_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA078_18			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA065_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_1	Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_12		Hap_1		Hap_1	
+C_IA066_18	Hap_2	Hap_2	Hap_2	Hap_2			Hap_2	Hap_2	Hap_5	Hap_5		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
+C_IA076_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_4		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA077_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA075_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA062_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_7	Hap_7		Hap_2	Hap_2	Hap_2	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA082_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA084_18	Hap_2	Hap_2					Hap_2	Hap_2	Hap_5	Hap_5		Hap_2	Hap_2				Hap_1	Hap_1	Hap_1	Hap_1			Hap_2	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
+C_IA083_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA080_18									Hap_2	Hap_2		Hap_2	Hap_2	Hap_1	Hap_1		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_13		Hap_1		Hap_2	
+C_IA086_18			Hap_1	Hap_1					Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA064_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA085_18			Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA087_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA092_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA091_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA090_18	Hap_2	Hap_2	Hap_2	Hap_2	Hap_1	Hap_1	Hap_2	Hap_2	Hap_5	Hap_6		Hap_2	Hap_2	Hap_3	Hap_3		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_3		Hap_1		Hap_2	
+C_IA060_18			Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2									Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1			Hap_1		Hap_1	
+C_IA099_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1			Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2		Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
+C_IA104_18	Hap_2	Hap_2	Hap_1	Hap_1	Hap_1	Hap_1	Hap_2	Hap_2	Hap_4	Hap_7		Hap_2	Hap_2	Hap_1	Hap_2	Hap_3	Hap_1	Hap_1	Hap_1	Hap_1			Hap_1	Hap_2	Hap_1	Hap_1	Hap_17		Hap_1		Hap_1	
