@@ -72,22 +72,22 @@ frequencies = list()
 
 for (j in 1:nloci) {
 	locicolumns = grepl(paste(locinames[j],"",sep=""),colnames(data))
-	print(locinames[j])
-	print(colnames(data))
-	print(locicolumns)
+	#print(locinames[j])
+	#print(colnames(data))
+	#print(locicolumns)
 	raw_alleles = c(as.matrix(data[,locicolumns]))
 	write.csv(data,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/data1.csv", row.names = FALSE )
-	print(raw_alleles)
-	print(data)
-	nrow(data)
-	ncol(data)
-	print(data[,locicolumns])
-	print(raw_alleles)
-	write.csv(raw_alleles,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/raw_allelesn1.csv", row.names = FALSE )
+	#print(raw_alleles)
+	#print(data)
+	#nrow(data)
+	#ncol(data)
+	#print(data[,locicolumns])
+	#print(raw_alleles)
+	#write.csv(raw_alleles,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/raw_allelesn1.csv", row.names = FALSE )
 	raw_alleles[raw_alleles == "NA"] = NA
 	raw_alleles[raw_alleles == 0] = NA
 	print(raw_alleles[raw_alleles == "NA"])
-	print(raw_alleles)
+	#print(raw_alleles)
 	write.csv(raw_alleles,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/raw_alleles2.csv", row.names = FALSE )
 	alleles[[j]] = unique(raw_alleles[!is.na(raw_alleles)])
 	print(alleles)
@@ -109,15 +109,16 @@ for (j in 1:nloci) {
 	if (length(dim(oldalleles)[2]) == 0) {
 		oldalleles = matrix(oldalleles,length(oldalleles),1)
 	}
+	#print(oldalleles)
 	observeddatamatrix[[j]] = oldalleles 
 }
 
 pairwisedistance = function(isolate1,isolate2){
-	print(((isolate2-1)*nids+isolate1)/ (nids*nids))
-	print(isolate1)
-	print(isolate2)
+	#print(((isolate2-1)*nids+isolate1)/ (nids*nids))
+	#print(isolate1)
+	#print(isolate2)
 	loglik = matrix(NA,nloci,3)
-	print(loglik)
+	#print(loglik)
 	for (j in 1:nloci) {
 		v1 = observeddatamatrix[[j]][isolate1,]
 		print(v1)
