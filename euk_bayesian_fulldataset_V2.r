@@ -124,27 +124,28 @@ pairwisedistance = function(isolate1,isolate2){
 	#print(loglik)
 	for (j in 1:nloci) {
 		v1 = observeddatamatrix[[j]][isolate1,]
-		print(v1)
+		#print(v1)
 		v1 = v1[!is.na(v1)]
 		p1 = frequencies[[j]][match(v1,alleles[[j]])]
 		v2 = observeddatamatrix[[j]][isolate2,]
 		v2 = v2[!is.na(v2)]
 		p2 = frequencies[[j]][match(v2,alleles[[j]])]
-		print(isolate1)
-		print(isolate2)
+		#print(isolate1)
+		#print(isolate2)
 		print(v1)
 		print(v2)
-		print(p1)
-		print(p2)
+		#print(p1)
+		#print(p2)
 		if (length(v1) > 0 & length(v2) > 0) {
 			loglik[j,] = calculate_loglikelihood2(v1,v2,p1,p2,ploidy[j])
+			#print(loglik[j,])
 		} else { loglik[j,] = c(NA,NA,NA)}
 		#write.csv(loglik[j,],paste0("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/loglik", (j), ".csv"), row.names = FALSE )
 	}
 	loglik_allloci = (colSums(matrix(loglik,ncol=3),na.rm=TRUE))
 	#write.csv(loglik_allloci,("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/loglik_allloci.csv"), row.names = FALSE )
 	lik_allloci = exp(loglik_allloci) / sum(exp(loglik_allloci))
-	write.csv(lik_allloci,("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/lik_allloci.csv"), row.names = FALSE )
+	#write.csv(lik_allloci,("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/lik_allloci.csv"), row.names = FALSE )
 	sum(lik_allloci*c(0,1,2))
 }
 
