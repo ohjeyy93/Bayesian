@@ -90,11 +90,13 @@ for (j in 1:nloci) {
 	#print(raw_alleles)
 	write.csv(raw_alleles,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/raw_alleles2.csv", row.names = FALSE )
 	alleles[[j]] = unique(raw_alleles[!is.na(raw_alleles)])
-	print(alleles)
+	#write.csv(alleles[[j]],paste0("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/allelestest", (j), ".csv"), row.names = FALSE )
 	#write.csv(alleles,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/alleles.csv", row.names = FALSE )
 	frequencies[[j]] = sapply(alleles[[j]], function(x) sum(raw_alleles == x,na.rm=TRUE))
+	#write.csv(frequencies[[j]],paste0("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/frequencies", (j), ".csv"), row.names = FALSE )
 	frequencies[[j]] = frequencies[[j]] / sum(frequencies[[j]])
-	print(frequencies[[j]])
+	write.csv(frequencies[[j]],paste0("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/frequencies", (j), ".csv"), row.names = FALSE )
+	#print(frequencies[[j]])
 
 }
 
