@@ -40,6 +40,7 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 	n1 = length(p1)
 	n2 = length(p2)
 	loglikelihood0 = sum(log(p1))+sum(log(p2))
+	print(loglikelihood0)
 	loglikelihood1 = log(max(sapply(1:n1, function (i) sapply(1:n2, 
 				function (j)  (v1[i] == v2[j])*exp((sum(log(p1[-i]))+sum(log(p2)))))),na.rm=TRUE))
 	if (length(v1) > 1 & length(v2) > 1) {
@@ -129,12 +130,21 @@ pairwisedistance = function(isolate1,isolate2){
 		v2 = observeddatamatrix[[j]][isolate2,]
 		v2 = v2[!is.na(v2)]
 		p2 = frequencies[[j]][match(v2,alleles[[j]])]
+		print(isolate1)
+		print(isolate2)
+		print(v1)
+		print(v2)
+		print(p1)
+		print(p2)
 		if (length(v1) > 0 & length(v2) > 0) {
 			loglik[j,] = calculate_loglikelihood2(v1,v2,p1,p2,ploidy[j])
 		} else { loglik[j,] = c(NA,NA,NA)}
+		#write.csv(loglik[j,],paste0("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/loglik", (j), ".csv"), row.names = FALSE )
 	}
 	loglik_allloci = (colSums(matrix(loglik,ncol=3),na.rm=TRUE))
+	#write.csv(loglik_allloci,("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/loglik_allloci.csv"), row.names = FALSE )
 	lik_allloci = exp(loglik_allloci) / sum(exp(loglik_allloci))
+	write.csv(lik_allloci,("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/lik_allloci.csv"), row.names = FALSE )
 	sum(lik_allloci*c(0,1,2))
 }
 
@@ -156,8 +166,9 @@ allpossiblepairs = unique(allpossiblepairs[allpossiblepairs[,1] <= allpossiblepa
 #print(allpossiblepairs[11,1])
 #print(allpossiblepairs[11,2])
 
-print(pairwisedistance(allpossiblepairs[1,1],allpossiblepairs[1,2]),mc.cores=12)
+#print(pairwisedistance(allpossiblepairs[1,1],allpossiblepairs[1,2]),mc.cores=12)
 pairwisedistancevector = unlist(mclapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistance(allpossiblepairs[x,1],allpossiblepairs[x,2]),mc.cores=12)) # parallel
+#print(pairwisedistance(allpossiblepairs[1,1],allpossiblepairs[1,2]),mc.cores=12)
 
 pairwisedistancematrix = matrix(NA,nids,nids)
 sapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistancematrix[allpossiblepairs[x,1],allpossiblepairs[x,2]] <<- pairwisedistancevector[x])
