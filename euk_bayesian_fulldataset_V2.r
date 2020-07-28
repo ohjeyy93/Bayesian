@@ -153,9 +153,10 @@ allpossiblepairs = unique(allpossiblepairs[allpossiblepairs[,1] <= allpossiblepa
 				  
 				  ###### MODIFY NUMBER OF CORES BELOW - mc.cores=###
 
-print(allpossiblepairs[11,1])
-print(allpossiblepairs[11,2])
+#print(allpossiblepairs[11,1])
+#print(allpossiblepairs[11,2])
 
+print(pairwisedistance(allpossiblepairs[1,1],allpossiblepairs[1,2]),mc.cores=12)
 pairwisedistancevector = unlist(mclapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistance(allpossiblepairs[x,1],allpossiblepairs[x,2]),mc.cores=12)) # parallel
 
 pairwisedistancematrix = matrix(NA,nids,nids)
