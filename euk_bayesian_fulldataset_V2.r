@@ -40,7 +40,7 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 	n1 = length(p1)
 	n2 = length(p2)
 	loglikelihood0 = sum(log(p1))+sum(log(p2))
-	print(loglikelihood0)
+	#print(loglikelihood0)
 	loglikelihood1 = log(max(sapply(1:n1, function (i) sapply(1:n2, 
 				function (j)  (v1[i] == v2[j])*exp((sum(log(p1[-i]))+sum(log(p2)))))),na.rm=TRUE))
 	if (length(v1) > 1 & length(v2) > 1) {
