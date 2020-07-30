@@ -39,10 +39,20 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 	# p2 is vector of allele frequencies in sample 2
 	n1 = length(p1)
 	n2 = length(p2)
+	#print(n1)
+	#print(n2)
 	loglikelihood0 = sum(log(p1))+sum(log(p2))
 	#print(loglikelihood0)
+	#print(p1)
+	#print(p2)
+	#print(n1)
+	#print(v1)
+	#print(v2)
 	loglikelihood1 = log(max(sapply(1:n1, function (i) sapply(1:n2, 
 				function (j)  (v1[i] == v2[j])*exp((sum(log(p1[-i]))+sum(log(p2)))))),na.rm=TRUE))
+	#print(exp((sum(log(p1[-1]))+sum(log(p2)))))
+	#print(sum(log(p1[-1])))
+	#print(p1[-1])
 	if (length(v1) > 1 & length(v2) > 1) {
 	pairs1 = combn(v1,2,simplify = FALSE)
 	pairs2 = combn(v2,2,simplify = FALSE)
@@ -53,7 +63,7 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 				function (j) (sum(sort(pairs1[[i]]) == sort(pairs2[[j]]))==2)*
 							exp((sum(log(p1[-match(pairs1[[i]],v1)]))+sum(log(p2)))))),na.rm=TRUE))
 	} else { loglikelihood2 = NA}
-
+  #print(loglikelihood1)
 	if (loglikelihood1 == -Inf) {
 		loglikelihood1 = log(epsilon * min(c(p1,p2)))
 	}
@@ -132,13 +142,13 @@ pairwisedistance = function(isolate1,isolate2){
 		p2 = frequencies[[j]][match(v2,alleles[[j]])]
 		#print(isolate1)
 		#print(isolate2)
-		print(v1)
-		print(v2)
+		#print(v1)
+		#print(v2)
 		#print(p1)
 		#print(p2)
 		if (length(v1) > 0 & length(v2) > 0) {
 			loglik[j,] = calculate_loglikelihood2(v1,v2,p1,p2,ploidy[j])
-			#print(loglik[j,])
+			print(loglik[j,])
 		} else { loglik[j,] = c(NA,NA,NA)}
 		#write.csv(loglik[j,],paste0("/Users/adminuser/Desktop/CDC/Bayesian/pyamd/loglik", (j), ".csv"), row.names = FALSE )
 	}
