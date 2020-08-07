@@ -1,4 +1,3 @@
-library(parallel)
 ### Calculate matrix using Plucinski's Unsupervized Naive Bayes classifier
 
 # calculate allele frequencies
@@ -8,7 +7,7 @@ library(parallel)
 calculate_loglikelihood = function(v1,v2,p1,p2,ploid){
 	# p1 is vector of allele frequencies in sample 1
 	# p2 is vector of allele frequencies in sample 2
-  n1 = length(p1)
+	n1 = length(p1)
 	n2 = length(p2)
 	loglikelihood0 = sum(log(p1))+sum(log(p2))
 	loglikelihood1 = log(sum(sum(sapply(1:n1, function (i) sapply(1:n2, 
@@ -23,9 +22,6 @@ calculate_loglikelihood = function(v1,v2,p1,p2,ploid){
 				function (j) 1/npairs1/npairs2 * (sum(sort(pairs1[[i]]) == sort(pairs2[[j]]))==2)*
 							exp((sum(log(p1[-match(pairs1[[i]],v1)]))+sum(log(p2)))))))))
 	} else { loglikelihood2 = NA}
-	print(-match(pairs1[[1]],v1))
-	print("test")
-	
 	if (ploid == 1) {
 		loglikelihood2 = loglikelihood1 
 	}
@@ -46,17 +42,19 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 				function (j)  (v1[i] == v2[j])*exp((sum(log(p1[-i]))+sum(log(p2)))))),na.rm=TRUE))
 	if (length(v1) > 1 & length(v2) > 1) {
 	pairs1 = combn(v1,2,simplify = FALSE)
+	print(-match(pairs1[[1]],v1))
+	print("test")
 	pairs2 = combn(v2,2,simplify = FALSE)
 	npairs1 = length(pairs1)
 	npairs2 = length(pairs2)
+	print(-match(pairs1[[1]],v1))
+	print("test")
+	
 
 	loglikelihood2 = log(max(sapply(1:npairs1, function (i) sapply(1:npairs2, 
 				function (j) (sum(sort(pairs1[[i]]) == sort(pairs2[[j]]))==2)*
 							exp((sum(log(p1[-match(pairs1[[i]],v1)]))+sum(log(p2)))))),na.rm=TRUE))
 	} else { loglikelihood2 = NA}
-	print(p1)
-	print(-match(pairs1[[1]],v1))
-  print(p1[-match(pairs1[[1]],v1)])
 	if (loglikelihood1 == -Inf) {
 		loglikelihood1 = log(epsilon * min(c(p1,p2)))
 	}
@@ -69,7 +67,7 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 		loglikelihood2 = loglikelihood1 
 	}
 	c(loglikelihood0,loglikelihood1,loglikelihood2)
-	print(c(loglikelihood0,loglikelihood1,loglikelihood2))
+	
 }
 
 alleles = list()
