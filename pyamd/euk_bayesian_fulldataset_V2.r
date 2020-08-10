@@ -54,9 +54,11 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 				function (j) (sum(sort(pairs1[[i]]) == sort(pairs2[[j]]))==2)*
 							exp((sum(log(p1[-match(pairs1[[i]],v1)]))+sum(log(p2)))))),na.rm=TRUE))
 	} else { loglikelihood2 = NA}
-	print(p1)
-	print(-match(pairs1[[1]],v1))
-  print(p1[-match(pairs1[[1]],v1)])
+	#print(p1)
+	#print(-match(pairs1[[1]],v1))
+  #print(p1[-match(pairs1[[1]],v1)])
+  #print(exp((sum(log(p1[-match(pairs1[[1]],v1)]))+sum(log(p2)))))
+  #print(exp(sum(log(p2))))
 	if (loglikelihood1 == -Inf) {
 		loglikelihood1 = log(epsilon * min(c(p1,p2)))
 	}
