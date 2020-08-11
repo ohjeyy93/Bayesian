@@ -44,6 +44,7 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 	loglikelihood0 = sum(log(p1))+sum(log(p2))
 	loglikelihood1 = log(max(sapply(1:n1, function (i) sapply(1:n2, 
 				function (j)  (v1[i] == v2[j])*exp((sum(log(p1[-i]))+sum(log(p2)))))),na.rm=TRUE))
+	print(loglikelihood1)
 	if (length(v1) > 1 & length(v2) > 1) {
 	pairs1 = combn(v1,2,simplify = FALSE)
 	pairs2 = combn(v2,2,simplify = FALSE)
@@ -142,6 +143,7 @@ allpossiblepairs = unique(allpossiblepairs[allpossiblepairs[,1] <= allpossiblepa
 				  ###### MODIFY NUMBER OF CORES BELOW - mc.cores=###
 				  
 pairwisedistancevector = unlist(mclapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistance(allpossiblepairs[x,1],allpossiblepairs[x,2]),mc.cores=12)) # parallel
+print(pairwisedistancevector)
 
 pairwisedistancematrix = matrix(NA,nids,nids)
 sapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistancematrix[allpossiblepairs[x,1],allpossiblepairs[x,2]] <<- pairwisedistancevector[x])
