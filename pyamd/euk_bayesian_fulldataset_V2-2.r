@@ -58,6 +58,9 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 	if (loglikelihood1 == -Inf) {
 		loglikelihood1 = log(epsilon * min(c(p1,p2)))
 	}
+	print(pairs1)
+	print(loglikelihood2)
+	#print(-match(pairs1[[1]],v1))
 	if (loglikelihood2 == -Inf & ploid > 1) {
 		nsharedalleles = max(sapply(1:npairs1, function (i) sapply(1:npairs2, 
 						function (j) (sum(sort(pairs1[[i]]) == sort(pairs2[[j]]))))))
@@ -66,6 +69,7 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 	if (ploid == 1) {
 		loglikelihood2 = loglikelihood1 
 	}
+	print(c(loglikelihood0,loglikelihood1,loglikelihood2))
 	c(loglikelihood0,loglikelihood1,loglikelihood2)
 	
 }
