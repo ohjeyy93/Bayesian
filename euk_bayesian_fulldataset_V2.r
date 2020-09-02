@@ -74,6 +74,9 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 	#if (length(p1)>2){print(p1[-match(pairs1[[1]],v1)])}
 	#if (length(p1)>2){print(p1[-match(pairs1[[2]],v1)])}
 	#if (length(p1)>2){print(p1[-match(pairs1[[3]],v1)])}
+	#if (length(p1)>2){print(exp((sum(log(p1[-match(pairs1[[1]],v1)]))+sum(log(p2)))))}
+	#if (length(p1)>2){print(exp((sum(log(p1[-match(pairs1[[2]],v1)]))+sum(log(p2)))))}
+	#if (length(p1)>2){print(exp((sum(log(p1[-match(pairs1[[3]],v1)]))+sum(log(p2)))))}
 	#print(sort(pairs1[[1]]))
 	#print(sort(pairs2[[1]]))
 	#print(sort(pairs1[[1]]) == sort(pairs2[[1]]))
