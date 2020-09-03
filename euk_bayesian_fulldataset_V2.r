@@ -69,7 +69,7 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 				function (j) (sum(sort(pairs1[[i]]) == sort(pairs2[[j]]))==2)*
 							exp((sum(log(p1[-match(pairs1[[i]],v1)]))+sum(log(p2)))))),na.rm=TRUE))
 	} else { loglikelihood2 = NA}
-  #print(loglikelihood1)
+  print(loglikelihood1)
 	#print(p1)
 	#if (length(p1)==2){print(p1[-1])}
 	#if (length(p1)==2){print(exp((sum(log(p1[-1]))+sum(log(p2)))))}
@@ -223,8 +223,8 @@ dim(allpossiblepairs)[1]
 pairwisedistancevector[1]
 allpossiblepairs[1,1]
 allpossiblepairs[1,2]
-allpossiblepairs[1,1]
 allpossiblepairs[1,2]
+allpossiblepairs[1,1]
 sapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistancematrix[allpossiblepairs[x,1],allpossiblepairs[x,2]] <<- pairwisedistancevector[x])
 sapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistancematrix[allpossiblepairs[x,2],allpossiblepairs[x,1]] <<- pairwisedistancevector[x])
 
