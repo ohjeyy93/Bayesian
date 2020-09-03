@@ -201,31 +201,39 @@ allpossiblepairs = expand.grid(1:nids,1:nids)
 #print(allpossiblepairs)
 #write.csv(allpossiblepairs,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/allpossiblepairs.csv", row.names = FALSE )
 allpossiblepairs = unique(allpossiblepairs[allpossiblepairs[,1] <= allpossiblepairs[,2],])
-#print(allpossiblepairs)
+print(allpossiblepairs)
 #write.csv(allpossiblepairs,"/Users/adminuser/Desktop/CDC/Bayesian/pyamd/allpossiblepairs2.csv", row.names = FALSE )
 # pairwisedistancevector = unlist(lapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistance(allpossiblepairs[x,1],allpossiblepairs[x,2]))) # not parallel
 
 				  
 				  ###### MODIFY NUMBER OF CORES BELOW - mc.cores=###
 
-#print(allpossiblepairs[11,1])
-#print(allpossiblepairs[11,2])
+print(length(allpossiblepairs[,1]))
+print(length(allpossiblepairs[,2]))
 
 #print(pairwisedistance(allpossiblepairs[1,1],allpossiblepairs[1,2]),mc.cores=12)
 pairwisedistancevector = unlist(mclapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistance(allpossiblepairs[x,1],allpossiblepairs[x,2]),mc.cores=12)) # parallel
 #print(pairwisedistance(allpossiblepairs[1,1],allpossiblepairs[1,2]),mc.cores=12)
 print(pairwisedistancevector)
 
+
 pairwisedistancematrix = matrix(NA,nids,nids)
+dim(pairwisedistancematrix)
+dim(allpossiblepairs)[1]
+pairwisedistancevector[1]
+allpossiblepairs[1,1]
+allpossiblepairs[1,2]
+allpossiblepairs[1,1]
+allpossiblepairs[1,2]
 sapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistancematrix[allpossiblepairs[x,1],allpossiblepairs[x,2]] <<- pairwisedistancevector[x])
 sapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistancematrix[allpossiblepairs[x,2],allpossiblepairs[x,1]] <<- pairwisedistancevector[x])
 
 colnames(pairwisedistancematrix) = ids 
 rownames(pairwisedistancematrix) = ids
-###write.csv(pairwisedistancematrix,"pairwisedistancematrix_Bayesian.csv")
+write.csv(pairwisedistancematrix,"pairwisedistancematrix_Bayesian.csv")
 
 Bayesian_pairwisedistancematrix = pairwisedistancematrix 
-
+dim(Bayesian_pairwisedistancematrix)
 
 pairwisedistancematrix
 
