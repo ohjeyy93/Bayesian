@@ -81,6 +81,11 @@ calculate_loglikelihood2 = function(v1,v2,p1,p2,ploid){
 	#print(-match(pairs1[[1]],v1))
 	#print(p1[-match(pairs1[[1]],v1)])
 	#print(loglikelihood2)
+	#print(p1)
+	#print(-match(pairs1[[1]],v1))
+	#print(p1[-match(pairs1[[1]],v1)])      
+	#if (length(p1)==4){print(-match(pairs1[[3]],v1))}
+	#if (length(p1)==4){print(p1[-match(pairs1[[3]],v1)])}
 	#if (length(p1)>2){print(p1[-match(pairs1[[1]],v1)])}
 	#if (length(p1)>2){print(p1[-match(pairs1[[2]],v1)])}
 	#if (length(p1)>2){print(p1[-match(pairs1[[3]],v1)])}
@@ -209,6 +214,7 @@ allpossiblepairs = unique(allpossiblepairs[allpossiblepairs[,1] <= allpossiblepa
 #print(pairwisedistance(allpossiblepairs[1,1],allpossiblepairs[1,2]),mc.cores=12)
 pairwisedistancevector = unlist(mclapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistance(allpossiblepairs[x,1],allpossiblepairs[x,2]),mc.cores=12)) # parallel
 #print(pairwisedistance(allpossiblepairs[1,1],allpossiblepairs[1,2]),mc.cores=12)
+print(pairwisedistancevector)
 
 pairwisedistancematrix = matrix(NA,nids,nids)
 sapply(1:dim(allpossiblepairs)[1], function (x) pairwisedistancematrix[allpossiblepairs[x,1],allpossiblepairs[x,2]] <<- pairwisedistancevector[x])
